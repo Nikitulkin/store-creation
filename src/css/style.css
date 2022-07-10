@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffe2b0;
 }
@@ -51,4 +55,15 @@ nav {
   height: 160px;
   border: 1px solid black;
   margin: 0 auto;
+  padding: 17px 0 0 28px;
+  text-align: left;
+}
+.section-about__title {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.section-about__text {
+  font-size: 30px;
+  margin: 0;
 }
