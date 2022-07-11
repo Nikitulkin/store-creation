@@ -36,6 +36,7 @@ nav {
   background-size: cover;
   cover no-repeat;
   position: relative;
+  margin-bottom: 20px;
 }
 .section-about__block {
   width: 420px;
@@ -46,8 +47,8 @@ nav {
     rgba(234, 156, 65, 08) 100%
   );
   position: absolute;
-  top: 349px;
-  left: 730px;
+  top: 54%;
+  left: 50%;
   padding-top: 15px;
 }
 .section-about__border {
@@ -66,4 +67,54 @@ nav {
 .section-about__text {
   font-size: 30px;
   margin: 0;
+}
+.section-discription {
+  margin-bottom: 20px;
+}
+.section-discription__icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-discription__icon-box img {
+  margin-right: 76px;
+}
+.section-discription__icon-box img:last-child {
+  margin-right: 0px;
+}
+.section-discription__title {
+  font-size: 96px;
+  margin: 0;
+  text-align: center;
+}
+.section-discription__span {
+  color: #f15b40;
+}
+.section-discription__text {
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.section-map {
+  margin-bottom: 20px;
+}
+.section-map__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {border: none;
+  border-top: 1px solid #999;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+footer {
+  height: 80px;
 }
